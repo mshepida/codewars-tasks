@@ -12,8 +12,6 @@ isSquare(25) // => true
 isSquare(26) // => false*/
 
 var isSquare = function(n){
-  if (Number.isInteger(Math.sqrt(n))){
-    return true;
-  }
-  return false;
+  return Number.isInteger(Math.sqrt(n))
+  
 }
